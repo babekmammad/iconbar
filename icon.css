@@ -1,0 +1,23 @@
+.iconbar {
+    width: 100%;
+    background: grey;
+    overflow: auto
+}
+
+.iconbar a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 12px 0px;
+    transition: all 0.3s ease;
+    color: antiquewhite;
+    font-size: 36px;
+}
+
+.iconbar a:hover {
+    background-color: black
+}
+
+.active {
+    background-color: aquamarine
+}
